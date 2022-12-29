@@ -13,27 +13,50 @@ https://user-images.githubusercontent.com/52140136/209906887-39c5bb96-2d28-4dcf-
 # Commands
 The bot supports the following commands:
 
-add       Stores last media recently sent by user using specified keyword.
-allcats   Sends embed containing list of all categories.
-blacklist Sends embed containing list of categories blacklisted by user.
-cat       Add item specified by keyword to a category.
-delcat    Deletes category if less than 10 items or if user is admin.
-delete    Deletes media associated with keyword from database.
-desc      Add or change description of keyword.
-emoji     Sets user's emoji to emoji or reports current emoji.
-get       Gets media from specified keyword.
-help      Shows a message listing all the commands
-hide      Makes media in category hidden for user when rolling random.
-keys      Displays all keywords in database or in specified category.
-last      Outputs information of last media sent.
-like      Add specified keyword to user's list of liked items.
-memes     Send embed containing list of memes added by specified user.
-myliked   Sends embed displaying list of user's liked memes.
-newcat    Add new category for items in database.
-put       Stores media in database using specified keyword.
-random    Sends media corresponding to a random keyword.
-rank      Send embed ranking members by number of items added.
-search    Sends embed containing all media with specified string.
-show      Makes media in category unhidden for user when rolling random.
-top       Displays list of top 20 liked keywords
-unlike    Remove specified keyword from user's list of liked items.
+```add```:       Stores last media recently sent by user using specified keyword.
+
+```allcats```:   Sends embed containing list of all categories.
+
+```blacklist```: Sends embed containing list of categories blacklisted by user.
+
+```cat```:       Add item specified by keyword to a category.
+
+```delcat```:    Deletes category if less than 10 items or if user is admin.
+
+```delete```:    Deletes media associated with keyword from database.
+
+```desc```:      Add or change description of keyword.
+
+```emoji```:     Sets user's emoji to emoji or reports current emoji.
+
+```get```:       Gets media from specified keyword.
+
+```help```:      Shows a message listing all the commands
+
+```hide```:      Makes media in category hidden for user when rolling random.
+
+```keys```:      Displays all keywords in database or in specified category.
+
+```last```:      Outputs information of last media sent.
+
+```like```:      Add specified keyword to user's list of liked items.
+
+```memes```:     Send embed containing list of memes added by specified user.
+
+```myliked```:   Sends embed displaying list of user's liked memes.
+
+```newcat```:    Add new category for items in database.
+
+```put```:       Stores media in database using specified keyword.
+
+```random```:    Sends media corresponding to a random keyword.
+
+```rank```:      Send embed ranking members by number of items added.
+
+```search```:    Sends embed containing all media with specified string.
+
+```show```:      Makes media in category unhidden for user when rolling random.
+
+```top```:       Displays list of top 20 liked keywords
+
+```unlike```:    Remove specified keyword from user's list of liked items.
