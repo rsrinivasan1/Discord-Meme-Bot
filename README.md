@@ -3,9 +3,17 @@ Comprehensive discord meme storage bot using DynamoDB, run on EC2. Initially use
 
 Each meme requires a unique keyword to be stored, and can be recalled using the same keyword. Users are able to provide a keyword, description, and category to classify memes through the ```add``` command.
 
-In addition to quick storage, this bot facilitates easy retrieval, even when a certain keyword cannot be remembered. Users can search for phrases present in keywords, descriptions, and even text present in the images through optical character recognition, using Pytesseract. The bot is also aware of what media is already present by hashing new memes to see if that image hash has already been added using the ImageHash library.
+# Features
+
+In addition to quick storage, this bot facilitates easy retrieval, even when a certain keyword cannot be remembered. Rather than fishing through your photos library for a particular image, simply add it to the bot beforehand so that it's easier to find later on.
+
+Users can search for phrases present in keywords, descriptions, and even text present in the images through optical character recognition, using Pytesseract. The bot is also aware of what media is already present by hashing new memes to see if that image hash has already been added using the ImageHash library. These features are what make this meme bot so useful, since it does not require you to memorize all keywords you have entered.
 
 Some quality-of-live updates include the addition of blacklists (rolling random does not yield memes of blacklisted categories), the addition of profile picture emojis for users in the server, and a server leaderboard displaying users with the most additions.
+
+# Usage
+
+This bot is being actively used in a private Discord server with a large group of friends and acquaintances, where it has racked up over 2700 memes as of December 2022. As I never imagined the bot would be used to this extent, programming this bot has taught me how to scale small projects to large proportions.
 
 # Quick walkthrough
 https://user-images.githubusercontent.com/52140136/209906887-39c5bb96-2d28-4dcf-89bb-e9aa2f72f890.mov
