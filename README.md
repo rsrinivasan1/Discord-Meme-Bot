@@ -1,5 +1,5 @@
 # Discord Meme Bot
-Comprehensive discord meme storage bot using DynamoDB, run on EC2. Initially used Discord.py, a Discord API for Python, but has since migrated to Pycord for the support of new Discord interactive components like buttons and dropdown menus.
+Comprehensive discord meme storage bot using DynamoDB, run on EC2. Initially used Discord.py, a Discord API wrapper for Python, but has since migrated to Pycord for the support of new Discord interactive components like buttons and dropdown menus.
 
 Each meme requires a unique keyword to be stored, and can be recalled using the same keyword. Users are able to provide a keyword, description, and category to classify memes through the ```add``` command.
 
